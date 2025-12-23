@@ -1,0 +1,23 @@
+.profile {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.profile .text {
+  flex: 1 1 360px;
+}
+
+.profile .photo {
+  flex: 0 0 auto;
+}
+
+.hero-photo {
+  width: 260px;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 999px;
+  display: block;
+}
+

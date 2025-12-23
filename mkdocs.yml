@@ -1,0 +1,37 @@
+site_name: Sakshie Pathak
+site_description: Sakshie's personal website
+site_url: https://sakshiep.github.io/
+
+theme:
+  name: material
+  features:
+    - search.highlight
+    - content.code.copy
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Dark mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Light mode
+extra_css:
+  - stylesheets/extra.css
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - Work: work/index.md
+  - Projects: projects/index.md
+  - Notes: notes/index.md
+  - About: about.md
