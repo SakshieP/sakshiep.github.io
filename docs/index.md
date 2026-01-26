@@ -17,11 +17,9 @@ I build practical data science projects — modeling, evaluation, and clear writ
 
 ## Featured
 
-<div class="grid cards" markdown>
-
-### Spotify Viral Hit Predictor
-**Machine Learning / Regression**
-A full pipeline (Cleaning → Lasso → Random Forest) that predicts song popularity with 54% accuracy.
-[View Code](https://github.com/SakshieP/spotify_viral_predictor)
-
-</div>
+| Project | Description | Link |
+| :--- | :--- | :--- |
+| **🎵 Spotify Viral Predictor** | Predicting song popularity with 54% accuracy using Random Forest. | [View Code](https://github.com/SakshieP/spotify_viral_predictor) |
+| **Churn / Cancellation Modeling** | Classification, imbalanced metrics, calibration. | [Open](PASTE_OLD_LINK_HERE) |
+| **Regression Case Study** | Baselines → Regularization → Tree Ensembles. | [Open](PASTE_OLD_LINK_HERE) |
+| **ML Notes** | Short, structured refreshers (kept updated). | [Open](PASTE_OLD_LINK_HERE) |
